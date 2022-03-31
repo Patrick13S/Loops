@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="aD4-Bc-ZbL">
-                                <rect key="frame" x="5" y="49" width="414" height="756"/>
+                                <rect key="frame" x="5" y="49" width="414" height="705"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="y5i-oW-YcQ">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
@@ -69,22 +69,26 @@
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYe-Ck-rPp">
                                         <rect key="frame" x="0.0" y="572" width="414" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Do While Loop"/>
+                                        <connections>
+                                            <action selector="doWhile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GxR-K2-rua"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6j-bA-Ujp">
                                         <rect key="frame" x="0.0" y="623" width="414" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="While Loop"/>
+                                        <connections>
+                                            <action selector="while:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xkS-Oo-KZA"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVd-LF-aOz">
                                         <rect key="frame" x="0.0" y="674" width="414" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEP-Bf-NMY">
-                                        <rect key="frame" x="0.0" y="725" width="414" height="31"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Joined Loop"/>
+                                        <connections>
+                                            <action selector="joinedLoop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UAZ-JO-NhQ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
